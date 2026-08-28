@@ -10,7 +10,7 @@ readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Roberto Villafuerte"}
 ]
 keywords = [
     "optimization",
@@ -51,9 +51,9 @@ notebook = [
 bioopt-bench = "bioopt_bench.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/bioopt-bench"
-Repository = "https://github.com/yourusername/bioopt-bench"
-Documentation = "https://github.com/yourusername/bioopt-bench#readme"
+Homepage = "https://github.com/VillaforTech/Bio-Inspired-Optimization-Benchmark"
+Repository = "https://github.com/VillaforTech/Bio-Inspired-Optimization-Benchmark"
+Documentation = "https://github.com/VillaforTech/Bio-Inspired-Optimization-Benchmark#readme"
 
 [tool.setuptools.packages.find]
 where = ["."]

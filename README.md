@@ -1,6 +1,6 @@
 # Bio-inspired Optimization Benchmark Runner
 
-A professional benchmark runner for bio-inspired optimization algorithms. Run reproducible experiments on benchmark functions, TSP, and scheduling problems with standardized interfaces, automatic artifact saving, and aggregated results.
+A reproducible benchmark runner for bio-inspired optimization algorithms. Run controlled experiments on benchmark functions, TSP, and scheduling problems with standardized interfaces, deterministic seeds, automatic artifact saving, and aggregated results.
 
 ## Algorithms
 
@@ -21,8 +21,8 @@ A professional benchmark runner for bio-inspired optimization algorithms. Run re
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/bioopt-bench.git
-cd bioopt-bench
+git clone https://github.com/VillaforTech/Bio-Inspired-Optimization-Benchmark.git
+cd Bio-Inspired-Optimization-Benchmark
 
 # Install in development mode
 pip install -e ".[dev]"
@@ -61,6 +61,8 @@ python -m bioopt_bench suite --suite default --repeat 3 --save
 # Run quick smoke test
 python -m bioopt_bench suite --suite quick --repeat 1 --save
 ```
+
+See a [verified quick-suite output](examples/quick-suite.md) captured from a clean checkout.
 
 ## CLI Reference
 
@@ -248,6 +250,13 @@ black .
 # Lint
 ruff check .
 ```
+
+## Scope and limitations
+
+This repository is a compact experimentation and teaching harness, not evidence that one
+metaheuristic is universally superior. Results depend on the task, budget, parameterization,
+and seed. Use repeated runs and task-appropriate baselines before drawing comparative
+conclusions.
 
 ## Project Structure
 
